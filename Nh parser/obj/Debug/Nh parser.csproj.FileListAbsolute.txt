@@ -1,0 +1,6 @@
+C:\ConpectTrash\PracticsAlgoritms\visual\Nh parser\Nh parser\bin\Debug\Nh_parser.exe
+C:\ConpectTrash\PracticsAlgoritms\visual\Nh parser\Nh parser\bin\Debug\Nh_parser.pdb
+C:\ConpectTrash\PracticsAlgoritms\visual\Nh parser\Nh parser\obj\Debug\Nh parser.csprojAssemblyReference.cache
+C:\ConpectTrash\PracticsAlgoritms\visual\Nh parser\Nh parser\obj\Debug\Nh parser.csproj.CoreCompileInputs.cache
+C:\ConpectTrash\PracticsAlgoritms\visual\Nh parser\Nh parser\obj\Debug\Nh_parser.exe
+C:\ConpectTrash\PracticsAlgoritms\visual\Nh parser\Nh parser\obj\Debug\Nh_parser.pdb
