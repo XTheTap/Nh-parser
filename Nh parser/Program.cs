@@ -17,30 +17,39 @@ namespace Nh_parser
             {
                 using (WebClient wc = new WebClient())
                 {
-                    wc.Headers.Add("Root-pc", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");;
+                    wc.Headers.Add("2XTheTap", "Mozilla/4.0 (compatible; MSIE 6.0; Windows 10; .NET CLR 1.0.3705;)");;
                     
                     string line = wc.DownloadString("https://nhentai.net/g/" + numbr);
                     string name = Regex.Match(line, @"<span class=.before.>(.+?)</span>").Groups[1].ToString() +
                                   Regex.Match(line, @"<span class=.pretty.>(.+?)</span>").Groups[1] +
                                   Regex.Match(line, @"<span class=.after.>(.+?)</span>").Groups[1];
-                    
+
                     uint pageValue = Convert.ToUInt32(Regex.Match(line, @"<span class=.name.>(\d+)</span>")
                         .Groups[1].ToString());
+
+                    var tempRg = Regex.Match(line, @"<meta itemprop=.image. content=.+\/galleries\/(\d+)/\w+(.\w+)");
                     
-                    uint downloadNum = Convert.ToUInt32(Regex.Match(line, @"<meta itemprop=.image. content=.+\/galleries\/(\d+)")
+                    uint downloadNum = Convert.ToUInt32(tempRg
                         .Groups[1].ToString());
+                    
+                    string picForm = tempRg
+                        .Groups[2].ToString();
                     
                     Console.WriteLine("Name: " + name + " with pages value: " + pageValue);
                     Console.WriteLine("Are you sure that you want download it? [Y/n]: ");
-                    bool ans = ParsAns(Console.ReadLine());
+                    bool ans = Console.ReadLine().ToLower() == "y";
                         
                     if (!ans) return;
 
-                    try { Directory.CreateDirectory(name); }
+                    try { Directory.CreateDirectory(Environment.GetEnvironmentVariable("USERPROFILE") 
+                                                    + "/Downloads/" + name); }
                     catch { Console.WriteLine("Cant create directory"); throw; }
                     
                     for (int i = 1; i < pageValue + 1; i++)
-                        wc.DownloadFile("https://i.nhentai.net/galleries/" + downloadNum + "/" + i + ".jpg", name + "/" + i + ".jpg");
+                        
+                        wc.DownloadFile("https://i.nhentai.net/galleries/" + downloadNum + "/" + i + picForm,  
+                            Environment.GetEnvironmentVariable("USERPROFILE") 
+                            + "/Downloads/" + name + "/" + i + picForm);
 
                     Console.WriteLine("Done");
                 }
@@ -48,16 +57,6 @@ namespace Nh_parser
 
             Console.WriteLine("Press any key to clese this shit");
             Console.ReadKey();
-        }
-
-        static public bool ParsAns(string pars)
-        {
-            switch (pars.ToLower())
-            {
-                case "y": return true;
-                case "n": return false;
-                default: return false;
-            }
         }
     }
 }
