@@ -2,6 +2,7 @@
 using System.IO;
 using System.Net;
 using System.Text.RegularExpressions;
+using System.Threading;
 
 namespace Nh_parser
 {
@@ -29,7 +30,7 @@ namespace Nh_parser
 
                     var tempRg = Regex.Match(line, @"<meta itemprop=.image. content=.+\/galleries\/(\d+)/\w+(.\w+)");
                     
-                    uint downloadNum = Convert.ToUInt32(tempRg
+                    uint downloadId = Convert.ToUInt32(tempRg
                         .Groups[1].ToString());
                     
                     string picForm = tempRg
@@ -45,12 +46,15 @@ namespace Nh_parser
                                                     + "/Downloads/" + name); }
                     catch { Console.WriteLine("Cant create directory"); throw; }
                     
-                    for (int i = 1; i < pageValue + 1; i++)
-                        
-                        wc.DownloadFile("https://i.nhentai.net/galleries/" + downloadNum + "/" + i + picForm,  
-                            Environment.GetEnvironmentVariable("USERPROFILE") 
+                    for (uint i = 1; i < pageValue + 1; i++)
+                    {
+                        wc.DownloadFile(
+                            new Uri("https://i.nhentai.net/galleries/" + downloadId + "/" + i + picForm),
+                            Environment.GetEnvironmentVariable("USERPROFILE")
                             + "/Downloads/" + name + "/" + i + picForm);
-
+                        Console.WriteLine("Picture: " + i + " Done");
+                    }
+                    
                     Console.WriteLine("Done");
                 }
             } catch (Exception e) { Console.WriteLine("That shit dosent download, maybe deal with your internet, exception: \n" + e); }
