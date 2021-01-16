@@ -39,22 +39,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Nh parser/Program.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Nh parser/Program.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1n3x2BeTQbU1ipup9reteM7NG9U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35016286" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30021715" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -122,91 +128,5 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Fixing little bugs and shit code" />
     <option name="LAST_COMMIT_MESSAGE" value="Fixing little bugs and shit code" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1873" height="294" key="GridCell.Tab.0.bottom" timestamp="1610807310548">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1610807310548" />
-    <state width="1873" height="294" key="GridCell.Tab.0.center" timestamp="1610807310547">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="294" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1610807310547" />
-    <state width="1873" height="294" key="GridCell.Tab.0.left" timestamp="1610807310547">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="294" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1610807310547" />
-    <state width="1873" height="294" key="GridCell.Tab.0.right" timestamp="1610807310548">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="294" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1610807310548" />
-    <state width="1873" height="389" key="GridCell.Tab.1.bottom" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.1.center" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.1.left" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.1.right" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.2.bottom" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.2.center" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.2.left" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.2.right" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.3.bottom" timestamp="1610807157139">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157139" />
-    <state width="1873" height="389" key="GridCell.Tab.3.center" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.3.left" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.3.right" timestamp="1610807157138">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157138" />
-    <state width="1873" height="389" key="GridCell.Tab.4.bottom" timestamp="1610807157139">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.4.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157139" />
-    <state width="1873" height="389" key="GridCell.Tab.4.center" timestamp="1610807157139">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.4.center/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157139" />
-    <state width="1873" height="389" key="GridCell.Tab.4.left" timestamp="1610807157139">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.4.left/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157139" />
-    <state width="1873" height="389" key="GridCell.Tab.4.right" timestamp="1610807157139">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1873" height="389" key="GridCell.Tab.4.right/0.0.1920.1080@0.0.1920.1080" timestamp="1610807157139" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1610641898308">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1610641898308" />
   </component>
 </project>
